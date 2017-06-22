@@ -1,0 +1,13 @@
+{
+  "name": "rollup-plugin-make",
+  "version": "0.0.1",
+  "description": "Rollup plugin to build dependency files suitable for make",
+  "keywords": [
+    "rollup-plugin",
+    "rollup",
+    "make"
+  ],
+  "main": "lib/index.js",
+  "author": "Avery Fay",
+  "license": "MIT"
+}
