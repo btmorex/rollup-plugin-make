@@ -7,7 +7,27 @@
     "rollup",
     "make"
   ],
-  "main": "lib/index.js",
-  "author": "Avery Fay",
-  "license": "MIT"
+  "homepage": "https://github.com/btmorex/rollup-plugin-make",
+  "bugs": "https://github.com/btmorex/rollup-plugin-make/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Avery Fay",
+    "email": "avery@shadypixel.com",
+    "url": "https://averyfay.com/"
+  },
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/btmorex/rollup-plugin-make.git"
+  },
+  "scripts": {
+    "prepublish": "mkdir -p dist && babel lib/index.js -o dist/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2"
+  },
+  "engines": {
+    "node": ">=6"
+  }
 }
