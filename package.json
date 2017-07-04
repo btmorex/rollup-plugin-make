@@ -21,7 +21,7 @@
     "url": "https://github.com/btmorex/rollup-plugin-make.git"
   },
   "scripts": {
-    "prepublish": "mkdir -p dist && babel lib/index.js -o dist/index.js"
+    "prepare": "mkdir -p dist && babel lib/index.js -o dist/index.js"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
