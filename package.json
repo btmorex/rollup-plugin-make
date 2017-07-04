@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-make",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Rollup plugin to build dependency files suitable for make",
   "keywords": [
     "rollup-plugin",
